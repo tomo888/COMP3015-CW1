@@ -1,14 +1,3 @@
-﻿  glad.c
-  glslprogram.cpp
-  glutils.cpp
-  objmesh.cpp
-C:\Users\FM Account\Documents\GitHub\COMP3015 CW1\COMP3015-CW1\helper\objmesh.cpp(188,41): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\FM Account\Documents\GitHub\COMP3015 CW1\COMP3015-CW1\helper\objmesh.cpp(194,48): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\FM Account\Documents\GitHub\COMP3015 CW1\COMP3015-CW1\helper\objmesh.cpp(198,43): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
-  stb_image.cpp
-  texture.cpp
-  trianglemesh.cpp
-  main.cpp
-  scenebasic_uniform.cpp
-  Generating Code...
-media\comp3015 room.obj : fatal error LNK1107: invalid or corrupt file: cannot read at 0xC1F
+﻿  scenebasic_uniform.cpp
+C:\Users\FM Account\Documents\GitHub\COMP3015 CW1\COMP3015-CW1\scenebasic_uniform.cpp(68,10): warning C4553: '==': result of expression not used; did you intend '='?
+  Project_Template.vcxproj -> C:\Users\FM Account\Documents\GitHub\COMP3015 CW1\COMP3015-CW1\x64\Debug\Project_Template.exe

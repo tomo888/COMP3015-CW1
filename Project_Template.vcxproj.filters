@@ -102,14 +102,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Object Include="media\comp3015 room.obj">
-      <Filter>media</Filter>
-    </Object>
-    <Object Include="media\comp3015.obj">
-      <Filter>media</Filter>
-    </Object>
-  </ItemGroup>
-  <ItemGroup>
     <Image Include="media\ImphenziaPalette02-Albedo.jpg">
       <Filter>media</Filter>
     </Image>

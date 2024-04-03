@@ -12,8 +12,11 @@ class SceneBasic_Uniform : public Scene
 private:
     GLSLProgram prog;
     std::unique_ptr<ObjMesh> mesh;
+    std::unique_ptr<ObjMesh> mesh1;
     void setMatrices();
     void compile();
+    float tPrev;
+    float angle;
 
 public:
     SceneBasic_Uniform();

@@ -174,10 +174,6 @@
     <ClInclude Include="scenebasic_uniform.h" />
   </ItemGroup>
   <ItemGroup>
-    <Object Include="media\comp3015 room.obj" />
-    <Object Include="media\comp3015.obj" />
-  </ItemGroup>
-  <ItemGroup>
     <Image Include="media\ImphenziaPalette02-Albedo.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

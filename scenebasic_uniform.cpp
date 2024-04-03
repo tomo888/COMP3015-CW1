@@ -23,7 +23,7 @@ using glm::mat3;
 SceneBasic_Uniform::SceneBasic_Uniform() :
 	tPrev(0),
 	mesh(ObjMesh::load("media/comp3015.obj", true)) {
-	mesh1 = ObjMesh::load("media/comp3015 room.obj");
+	mesh1 = ObjMesh::load("media/comp3015 room.obj", true);
 	
 }
 
@@ -96,7 +96,7 @@ void SceneBasic_Uniform::render()
 	mesh->render();
 
 	model = mat4(1.0f);
-	model = glm::translate(model, vec3(0.0f, -2.0f, 0.0f));
+	model = glm::translate(model, vec3(0.0f, 1.0f, 0.0f));
 	model = glm::rotate(model, glm::radians(235.0f), vec3(0.0f, 1.0f, 0.0f));
 	setMatrices();
 	mesh1->render();

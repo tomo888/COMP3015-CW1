@@ -39,31 +39,19 @@
     <ClCompile Include="scenebasic_uniform.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="helper\teapot.cpp">
-      <Filter>helper</Filter>
-    </ClCompile>
-    <ClCompile Include="helper\torus.cpp">
-      <Filter>helper</Filter>
-    </ClCompile>
     <ClCompile Include="helper\trianglemesh.cpp">
       <Filter>helper</Filter>
     </ClCompile>
     <ClCompile Include="glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="helper\cube.cpp">
-      <Filter>helper</Filter>
-    </ClCompile>
     <ClCompile Include="helper\objmesh.cpp">
       <Filter>helper</Filter>
     </ClCompile>
-    <ClCompile Include="helper\plane.cpp">
-      <Filter>helper</Filter>
-    </ClCompile>
-    <ClCompile Include="helper\skybox.cpp">
-      <Filter>helper</Filter>
-    </ClCompile>
     <ClCompile Include="helper\stb_image.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\texture.cpp">
       <Filter>helper</Filter>
     </ClCompile>
   </ItemGroup>
@@ -100,35 +88,30 @@
     <ClInclude Include="helper\drawable.h">
       <Filter>helper</Filter>
     </ClInclude>
-    <ClInclude Include="helper\teapot.h">
-      <Filter>helper</Filter>
-    </ClInclude>
-    <ClInclude Include="helper\teapotdata.h">
-      <Filter>helper</Filter>
-    </ClInclude>
-    <ClInclude Include="helper\torus.h">
-      <Filter>helper</Filter>
-    </ClInclude>
     <ClInclude Include="helper\trianglemesh.h">
       <Filter>helper</Filter>
     </ClInclude>
     <ClInclude Include="helper\aabb.h">
       <Filter>helper</Filter>
     </ClInclude>
-    <ClInclude Include="helper\cube.h">
-      <Filter>helper</Filter>
-    </ClInclude>
     <ClInclude Include="helper\objmesh.h">
-      <Filter>helper</Filter>
-    </ClInclude>
-    <ClInclude Include="helper\plane.h">
-      <Filter>helper</Filter>
-    </ClInclude>
-    <ClInclude Include="helper\skybox.h">
       <Filter>helper</Filter>
     </ClInclude>
     <ClInclude Include="helper\utils.h">
       <Filter>helper</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="media\comp3015 room.obj">
+      <Filter>media</Filter>
+    </Object>
+    <Object Include="media\comp3015.obj">
+      <Filter>media</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="media\ImphenziaPalette02-Albedo.jpg">
+      <Filter>media</Filter>
+    </Image>
   </ItemGroup>
 </Project>

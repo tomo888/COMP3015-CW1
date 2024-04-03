@@ -13,14 +13,15 @@ using std::endl;
 
 #include "helper/glutils.h"
 #include <glm/gtc/matrix_transform.hpp>
+#include "helper/texture.h"
 
 using glm::vec3;
 using glm::mat4;
 using glm::vec4;
 using glm::mat3;
 
-SceneBasic_Uniform::SceneBasic_Uniform() : plane(10.0f, 10.0f, 100, 100) {
-	mesh = ObjMesh::load("media/comp3015.obj", true);
+SceneBasic_Uniform::SceneBasic_Uniform() : mesh(ObjMesh::load("media/comp3015.obj", true)) {
+	
 }
 
 void SceneBasic_Uniform::initScene()
@@ -39,6 +40,10 @@ void SceneBasic_Uniform::initScene()
 	prog.setUniform("Spot.La", vec3(0.5f));
 	prog.setUniform("Spot.Exponent", 50.0f);
 	prog.setUniform("Spot.Cutoff", glm::radians(15.0f));
+
+	GLuint texID = Texture::loadTexture("media/ImphenziaPalette02-Albedo.png");
+	glActiveTexture(GL_TEXTURE0);
+	glBindTexture(GL_TEXTURE_2D, texID);
 }
 
 void SceneBasic_Uniform::compile()
